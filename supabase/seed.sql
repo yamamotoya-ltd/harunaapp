@@ -1,0 +1,12 @@
+-- テスト用シードデータ（開発環境のみ）
+-- 実際のuser UUIDはSupabase Authから取得して差し替えること
+
+-- 例: テスト用パス（user_idは実際のUUIDに変更してください）
+-- INSERT INTO public.passes (user_id, plan_name, total_count, used_count, expires_at)
+-- VALUES (
+--   'YOUR_USER_UUID_HERE',
+--   'TORCH 4h PASS',
+--   10,
+--   3,
+--   now() + interval '3 months'
+-- );
